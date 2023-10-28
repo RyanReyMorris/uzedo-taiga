@@ -10,6 +10,10 @@
   },
   "private": true,
   "dependencies": {
+    "@biesbjerg/ngx-translate-extract": "^7.0.4",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^6.0.0",
+
     "@angular/animations": "^16.2.0",
     "@angular/cdk": "^16.0.0",
     "@angular/common": "^16.2.0",
