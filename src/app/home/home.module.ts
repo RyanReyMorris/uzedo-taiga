@@ -5,6 +5,9 @@ import {TranslateModule} from "@ngx-translate/core";
 import {RouterModule} from "@angular/router";
 import {ComponentsModule} from "../components/components.module";
 import {HomeRoutingModule} from "./home-routing.module";
+import {TuiAppBarModule} from "@taiga-ui/addon-mobile";
+import {TuiButtonModule, TuiLabelModule, TuiSvgModule} from "@taiga-ui/core";
+import {TuiTabsModule} from "@taiga-ui/kit";
 
 @NgModule({
   declarations: [HomeComponent],
@@ -13,7 +16,12 @@ import {HomeRoutingModule} from "./home-routing.module";
     TranslateModule,
     RouterModule,
     ComponentsModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    TuiAppBarModule,
+    TuiButtonModule,
+    TuiLabelModule,
+    TuiSvgModule,
+    TuiTabsModule
   ]
 })
 export class HomeModule {
