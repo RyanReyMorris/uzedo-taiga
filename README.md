@@ -1,27 +1,24 @@
 # UzedoTaiga
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+## Overview
+Try to rewrite current UI corporate project with Angular 16 and Taiga UI library.
 
-## Development server
-
+## Building
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Release Notes
+Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Authors
+* Egor Yakimov - [eyakimov](https://github.com/RyanReyMorris)
 
-## Running end-to-end tests
+## Code of Conduct
+Please, follow [Code of Conduct](CODE_OF_CONDUCT.md) page.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributing
+Please, follow [Contributing](CONTRIBUTING.md) page.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is Apache License 2.0 - see the [LICENSE](LICENSE) file for details
